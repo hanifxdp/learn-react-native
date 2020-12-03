@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Image, Text, View} from 'react-native';
 
-class MateriFlexBox extends Component {
+class FlexBox extends Component {
   render() {
     return (
       <View>
@@ -28,7 +28,8 @@ class MateriFlexBox extends Component {
           <Text>Channel</Text>
           <Text>Tentang</Text>
         </View>
-        <View style={{flexDirection: 'row', alignItems: 'center', marginTop: 20}}>
+        <View
+          style={{flexDirection: 'row', alignItems: 'center', marginTop: 20}}>
           <Image
             source={{
               uri:
@@ -48,4 +49,4 @@ class MateriFlexBox extends Component {
   }
 }
 
-export default MateriFlexBox;
+export default FlexBox;
